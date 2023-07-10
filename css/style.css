@@ -107,3 +107,24 @@ main > .products-section > .flowers-container img{
     height: 370px;
     align-self: flex-end;
 }
+
+/* This is services section */
+
+main> .services-section {
+    margin: 0 10%;
+}
+
+main > .services-section > .service-container{
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(39, 39, 39,0.05);
+}
+
+main > .services-section > .service-container p{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    color: rgba(39, 39, 39,0.80);
+}
