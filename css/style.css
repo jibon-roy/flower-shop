@@ -162,7 +162,7 @@ main > .sign-up-section > .sign-up-container img{
 /* this is social section  */
 
 main > .social-section{
-    margin: 200px 10%;
+    margin: 200px 10% 100px;
 }
 main > .social-section .heding-part{
     text-align: center;
@@ -185,4 +185,38 @@ main > .social-section > .flowers-card-container .flowers-card{
 
 main > .social-section > .flowers-card-container img{
     width: 90%;
+}
+
+/* This is subscribe section */
+
+main > .subscribe-section{
+    margin: 100px 10%;
+    background-image: url('../images/sub-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main > .subscribe-section .subscribe-container {
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > .subscribe-section .subscribe-container h1{
+    font-size: 2.5rem;
+}
+
+main > .subscribe-section .subscribe-container p{
+    margin: 50px 0;
+}
+
+main > .subscribe-section .subscribe-container form input[type=email]{
+    width: 600px;
+    height: 52px;
+    border: 0;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding-left: 20px;
 }
