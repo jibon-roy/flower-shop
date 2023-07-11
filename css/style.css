@@ -191,6 +191,7 @@ main > .social-section > .flowers-card-container img{
 
 main > .subscribe-section{
     margin: 100px 10%;
+    border-radius: 8px;
     background-image: url('../images/sub-bg.png');
     background-repeat: no-repeat;
     background-position: center;
