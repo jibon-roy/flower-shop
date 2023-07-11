@@ -158,3 +158,31 @@ main > .sign-up-section > .sign-up-container p{
 main > .sign-up-section > .sign-up-container img{
     width: 200px;
 }
+
+/* this is social section  */
+
+main > .social-section{
+    margin: 200px 10%;
+}
+main > .social-section .heding-part{
+    text-align: center;
+}
+main > .social-section .heding-part > h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+main > .social-section .heding-part > p{
+    margin: 40px 0 80px;
+}
+main > .social-section > .flowers-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+main > .social-section > .flowers-card-container .flowers-card{
+    text-align: center;
+}
+
+main > .social-section > .flowers-card-container img{
+    width: 90%;
+}
