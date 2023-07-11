@@ -220,3 +220,26 @@ main > .subscribe-section .subscribe-container form input[type=email]{
     border-radius: 8px;
     padding-left: 20px;
 }
+
+/* This is footer part */
+
+footer {
+    text-align: center;
+    background-color: #111010;
+    padding: 120px;
+}
+
+footer > .footer-heading{
+    color: rgba(255, 255, 255, 0.90);
+}
+
+footer > .footer-heading h1{
+    font-size: 2.5rem;
+}
+footer > .footer-heading p{
+    margin: 30px 0;
+}
+
+footer > .footer-copyright p {
+    color: rgba(255, 255, 255, 0.40);
+}
