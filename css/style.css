@@ -6,7 +6,7 @@
 /* This is body */
 body{
     font-family: 'Lato', sans-serif;
-      font-size: 18pt;
+      font-size: 18px;
 }
 
 /* This is primary colors and styles part */
@@ -23,7 +23,7 @@ body{
     font-weight: bold;
     background-color: #E55473;
     padding: 15px 30px;
-    font-size: 18;
+    font-size: 18px;
     border: none;
     border-radius: 8px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
@@ -111,7 +111,7 @@ main > .products-section > .flowers-container img{
 /* This is services section */
 
 main> .services-section {
-    margin: 0 10%;
+    margin: 0 10% 200px;
 }
 
 main > .services-section > .service-container{
@@ -127,4 +127,34 @@ main > .services-section > .service-container p{
     margin: 20px 0 0 0;
     font-size: 20px;
     color: rgba(39, 39, 39,0.80);
+}
+
+/* This is Sign up section */
+main > .sign-up-section{
+    margin: 100px 10%;
+    display: block;
+}
+
+main > .sign-up-section > .sign-up-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 100px ;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+main > .sign-up-section > .sign-up-container h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+main > .sign-up-section > .sign-up-container p{
+    margin: 40px 0;
+    font-size: 18px;
+    color: rgba(39, 39, 39,0.80);
+}
+
+main > .sign-up-section > .sign-up-container img{
+    width: 200px;
 }
